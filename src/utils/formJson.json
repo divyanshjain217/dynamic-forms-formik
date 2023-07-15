@@ -1,0 +1,130 @@
+{
+	"personal_info": {
+		"type": "wizard",
+		"title": "Personal Information",
+		"key": "personal_info",
+		"depth" : 0,
+		"personal_info": {
+			"type": "section",
+			"title": "Personal",
+			"key": "personal",
+			"depth" : 1,
+			"questions": {
+				"first_name": {
+					"type": "textfield",
+					"title": "First Name",
+					"key": "first_name",
+					"depth" : 2,
+					"value": "John Doe"
+				},
+				"last_name": {
+					"type": "textfield",
+					"title": "Last Name",
+					"key": "last_name",
+					"depth" : 2
+				}
+			}
+		},
+		"contact_info": {
+			"type": "section",
+			"title": "Contact",
+			"key": "contact_info",
+			"depth" : 1,
+			"questions": {
+				"email": {
+					"depth" : 2,
+					"type": "textfield",
+					
+					"title": "email",
+					"key": "email"
+				},
+				"phone": {
+					"depth" : 2,
+					"type": "textfield",
+					
+					"title": "phone",
+					"key": "phone"
+				}
+			}
+		},
+		"address": {
+			"type": "section",
+			"title": "Address",
+			"key": "address",
+			"depth" : 1,
+			"questions":{
+				"street": {
+					"depth" : 2,
+					"type": "textfield",
+					"title": "street",
+					"key": "street"
+				},
+				"city": {
+					"depth" : 2,
+					"type": "textfield",
+					"title": "City",
+					"key": "city"
+				},
+				"state": {
+					"depth" : 2,
+					"type": "textfield",
+					"title": "state",
+					"key": "state"
+				},
+				"country": {
+					"type": "textfield",
+					"title": "country",
+					"key": "country"
+				}
+			}
+		}
+	},
+	"academic": {
+		"type": "wizard",
+		"title": "Academic Information",
+		"key": "academic",
+		"depth" : 0,
+		"SSC": {
+			"type": "section",
+			"title": "SSC",
+			"key": "ssc",
+			"depth" : 1,
+			"questions": {
+				"school_name": {
+					"type": "textfield",
+					"title": "School Name",
+					"key": "school_name",
+					"depth" : 2,
+					"value": ""
+				},
+				"school_address": {
+					"type": "textfield",
+					"title": "School Address",
+					"key": "school_address",
+					"depth" : 2
+				}
+			}
+		},
+		"ug": {
+			"type": "section",
+			"title": "Undergraduate",
+			"key": "ug",
+			"depth" : 1,
+			"questions": {
+				"college_name": {
+					"type": "textfield",
+					"title": "College/University Name",
+					"key": "college_name",
+					"depth": 2,
+					"value": ""
+				},
+				"college_address": {
+					"type": "textfield",
+					"title": "College Address",
+					"key": "college_address",
+					"depth": 2
+				}
+			}
+		}
+	}
+}
